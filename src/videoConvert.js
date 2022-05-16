@@ -13,7 +13,7 @@ const framesDirectory = path.resolve(framesOutput);
 
 // parameters
 
-// RGB24 is 8 bits (indexes) per color. A row of 16 pixels, 3 colors each, is 48 indexes, or the 47th index
+// RGB24 is 3 colors (indexes) per pixel. A row of 16 pixels, 3 colors each, is 48 indexes, or the 47th index
 // 47th is specific to this display. It's simply PIXELS * 3 - 1, where 3 is RGB, and - 1 is accounting for the 0th index.
 // topRow is when to start converting pixels. All pixels before this number are ignored
 // bottomRow is when to top converting pixels. All pixels after this number are ignored
