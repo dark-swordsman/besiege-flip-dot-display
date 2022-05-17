@@ -4,7 +4,7 @@
   <h3>
     <a href="https://www.youtube.com/watch?v=6ODttESd138">Bad Apple Video</a>
     &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="https://www.youtube.com/watch?v=6ODttESd138">Tutorial Video</a>
+    <a href="https://www.youtube.com/watch?v=6Qlr-N-vw4A">Video Guide</a>
     &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2809012624">Steam Workshop Page</a>
   </h3>
