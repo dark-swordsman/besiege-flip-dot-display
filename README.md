@@ -43,3 +43,6 @@ The flow is as follows:
 - pasting the data into the data controller, the video will play
   - the data controller reads each decimal number and sends it to the row processors that drive each row of pixels
   - the row processor converts the decimal to a binary array, and iterates over the array to set 1 or 0 for each pixel to display
+
+![besiege_flipdot_gif_small](https://user-images.githubusercontent.com/7909209/169053391-d1e9eb49-bc66-4292-b495-7cb2b384138a.gif)
+
