@@ -33,6 +33,7 @@ Not only that, but the Code Blocks in Logic Extensions was limited to 100 PIO va
 The flow is as follows:
 
 - take any video and run it through ffmpeg
+  - example: `ffmpeg -i input.mkv -vf scale=16:-1:flags=neighbor -pix_fmt rgb24 out/frame_%08d.raw`
   - converting it to a small video with nearest neighbor scaling
   - output to raw frames (a grayscale format would be better, but RGB24 worked in this case)
 - use the convert.js script to import the raw images and then output a file that is a single array
