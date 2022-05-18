@@ -36,6 +36,7 @@ The flow is as follows:
   - converting it to a small video with nearest neighbor scaling
   - output to raw frames (a grayscale format would be better, but RGB24 worked in this case)
 - use the convert.js script to import the raw images and then output a file that is a single array
+  - the script combines the RGB values and then binarizes at `127` (<127 was black pixels, 127 or higher is white pixels)
   - the array is a 2D array, where each internal array is 9 length (1 integer for each row)
   - each integer is a decimal representation of a 16 bit binary number
 - pasting the data into the data controller, the video will play
